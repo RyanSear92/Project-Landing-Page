@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
+    margin: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+ul {
+    display: flex;
+    list-style-type:  none;
+    gap: 14px;    
 }
 
 .header h1 {
@@ -29,8 +36,52 @@ body{
     font-size: 124px;
 }
 
-ul {
+.hero {
+    background-color: #1f2937;
     display: flex;
-    list-style-type:  none;
-    gap: 14px;    
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-img {
+    display:flex;
+    background-color: grey;
+    color: #f9faf8;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900px;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0px;
+}
+
+.hero-cta {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 6px;
+    height: 30px;
+    width: 110px;
+    font-weight: 700;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 0;
 }
