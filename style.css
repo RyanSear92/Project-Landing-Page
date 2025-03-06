@@ -15,7 +15,7 @@ ul {
     font-size: 24px;
 }
 
-.header ul{
+.header ul {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -84,4 +84,35 @@ ul {
     align-items: center;
     padding: 0px;
     border: 0;
+}
+
+.sub-heading {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.info-pane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    gap: 30px;
+}
+
+.info-text {
+    width: 170px;
+    color: #1f2937;
+}
+
+.info-box {
+    height: 170px;
+    width: 170px;
+    border: #3882f6 solid;
+    border-radius: 12px;
+    margin-bottom: 18px;
 }
